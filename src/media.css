@@ -1,0 +1,104 @@
+@media (max-width: 600px) {
+  ul {
+    display: none;
+    padding: 20px;
+  }
+  .btn_GetStarted {
+    padding: 9px 13px;
+  }
+  .Home,
+  .Hotel,
+  .chooseRoom {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .Hotel {
+    flex-direction: column-reverse;
+  }
+  .Cabin {
+    display: flex;
+    flex-direction: column;
+  }
+  .h2_paragraph {
+    font-size: 25px;
+  }
+  .TextsInformation {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+  }
+  .TextsInformation h1 {
+    font-size: 30px;
+    line-height: 130%;
+  }
+  .imgOfHome {
+    gap: 0px;
+  }
+  .imgOfHome img {
+    height: 300px;
+  }
+  .img_home2 {
+    margin-top: 0;
+  }
+  .img_home1 {
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+  }
+  .img_home3 {
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+  }
+  .Nushoki,
+  .img_Earth_Cootage,
+  .food_img,
+  .room1,
+  .room2,
+  .room3 {
+    width: 90%;
+    height: 400px;
+  }
+  .room {
+    width: 90%;
+  }
+  .boxRooms {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .room {
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .manyRooms {
+    width: 90%;
+    margin: 30px auto;
+  }
+  .getRoom,
+  .choose {
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+  .first h3,
+  .second h3 {
+    font-size: 18px;
+    line-height: 110%;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer_left {
+    display: none;
+  }
+  .footer_right {
+    gap: 20px;
+  }
+  footer {
+    padding: 40px;
+    border-radius: 13px;
+  }
+}

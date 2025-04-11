@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+}
+header,
+main, .footer {
+  max-width: 1200px;
+  margin: auto;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+nav,
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  padding: 30px 0;
+}
+ul {
+  list-style: none;
+  gap: 32px;
+  font-weight: 500;
+  line-height: 100%;
+  color: #192252;
+  font-size: 17px;
+}
+.btn_GetStarted {
+  padding: 14px 16px;
+  background-color: transparent;
+  border: none;
+  background-color: #0e1734;
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+}
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.TextsInformation {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: flex-start;
+  width: 45%;
+}
+.TextsInformation h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: -1%;
+  color: #192252;
+  font-family: "Montserrat", sans-serif;
+}
+.lorem {
+  font-size: 18px;
+  line-height: 150%;
+  color: #848fac;
+}
+.bnt_Reservation {
+  padding: 16px 32px;
+  background-color: #0e1734;
+  color: white;
+  border-radius: 6px;
+  border: transparent;
+  font-weight: 500;
+}
+.imgOfHome {
+  display: flex;
+  gap: 24px;
+}
+.img_home2 {
+  margin-top: 81px;
+}
+.Hotel {
+  display: flex;
+  margin: 50px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.h2_paragraph {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  letter-spacing: -1%;
+  font-family: "Montserrat", sans-serif;
+  color: #192252;
+}
+.manyRooms {
+  text-align: center;
+  width: 40%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  align-items: center;
+}
+.boxRooms {
+  display: flex;
+  justify-content: space-between;
+}
+.room {
+  width: 383px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid #424f7b;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.nameRoom {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%;
+  font-family: "Montserrat", sans-serif;
+}
+.btn button {
+  color: #424f7b;
+}
+.chooseRoom {
+  display: flex;
+  margin: 100px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.getRoom {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.buttons {
+  display: flex;
+  gap: 24px;
+}
+.Button {
+  padding: 16px 32px;
+  background-color: #0e1734;
+  border-radius: 4px;
+  color: white;
+}
+.choose {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.first,
+.second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(238, 235, 231);
+  padding: 20px;
+  border-radius: 13px;
+}
+.second {
+  align-items: flex-start;
+}
+
+.first h3,
+.second h3 {
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  line-height: 150%;
+  color: #424f7b;
+}
+.Arrow_top,
+.Arrow_down {
+  padding: 4px;
+  background-color: #ff620a;
+  border-radius: 50%;
+}
+.Arrow_down {
+  background-color: #ffece2;
+}
+
+.happy {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  margin: 50px auto;
+  align-items: center;
+  text-align: center;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+footer {
+  background-color: #0B265A;
+  color: white;
+  padding: 120px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer_left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  width: 180px;
+}
+.footer_left p {
+  line-height: 28px;
+  color: #D9DBDE;
+}
+.footer_right {
+  display: flex;
+  gap: 100px;
+}
+.logo_Company {
+  display: flex;
+  gap: 24px;
+}
+.footer_right div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.category p {
+  color: #b9b9b9;
+}
+.white {
+  color: white !important;
+}
