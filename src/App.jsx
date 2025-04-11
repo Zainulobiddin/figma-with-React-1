@@ -13,7 +13,7 @@ import arrow_right from "./assets/arrow_right.svg";
 import room1 from "./assets/room1.svg";
 import room2 from "./assets/room2.svg";
 import room3 from "./assets/room3.svg";
-import Arrow_down from "./assets/Arrow_down.svg";
+import Arrow_bottom from "./assets/Arrow_bottom.svg";
 import Arrow_top from "./assets/Arrow_top.svg";
 import nuqtaho from "./assets/nuqtaho.svg";
 import woman from "./assets/woman.svg";
@@ -167,7 +167,7 @@ const App = () => {
           <div className="choose">
             <div className="first">
               <h3>1. Choose a room and date</h3>
-              <img className="Arrow_down" src={Arrow_down} alt="" />
+              <img className="Arrow_bottom" src={Arrow_bottom} alt="" />
             </div>
 
             <div className="second">
@@ -182,7 +182,7 @@ const App = () => {
             </div>
             <div className="first">
               <h3>3. Enjoy your room</h3>
-              <img className="Arrow_down" src={Arrow_down} alt="" />
+              <img className="Arrow_bottom" src={Arrow_bottom} alt="" />
             </div>
           </div>
         </section>
